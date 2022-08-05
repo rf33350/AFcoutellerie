@@ -1,3 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo_AFC {
+    height: 70px;
+    width: 70px;
+}
+
 .nav_bg {
     background-color: lightcoral;
+}
+
+.navbar-title {
+    font-size: 26px;
+}
+
+.Bienvenue {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo_AFC {
+        height: 60px;
+        width: 60px;
+    }
+
+    .navbar-title {
+        font-size: 20px;
+    }
+
+    .Bienvenue {
+        font-size: 15px;
+    }
+    
 }
