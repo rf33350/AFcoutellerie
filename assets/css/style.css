@@ -4,27 +4,65 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+    padding: 10px 10px 10px 10px;
+    margin: 1px 1px 1px 1px;
+    border-radius: 5px;
+}
+
+.navbar-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#navbarNav {
+    padding-top: 8px;
+}
+
 .logo_AFC {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 
 .nav_bg {
     background-color: #AACD6E;
 }
 
+.Bienvenue-title {
+    font-size: 20px;
+    text-align: center;
+}
+
 .navbar-title {
     font-size: 26px;
 }
 
-.Bienvenue-title {
+.navbar-title  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav li{
     text-align: center;
-    font-size: 45px;
 }
 
 .Bienvenue-par {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.carousel {
+    margin: 1px 1px 1px 1px;
 }
 
 h3 {
@@ -32,10 +70,18 @@ h3 {
     font-size: 35px;
     background-color: #C5C6B6;
     padding-bottom: 10px;
+    margin: 10px 2px;
+    border-radius: 2px;
 }
 
 .featurette {
-    margin-top: 20px;
+    margin: 10px 2px;
+}
+
+.featurette-heading {
+    background-color: rgba(204, 198, 198, 0.288);
+    padding: 2px 2px;
+    border-radius: 5px;
 }
 
 .featurette-image {
@@ -51,14 +97,50 @@ h3 {
     border-radius: 10px;
 }
 
-.footer-container {
-    margin-top: 50px;
+.row {
+    margin-bottom: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
 }
 
 .footer-link {
     text-decoration: none;
+    color: #65665d;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 3 / 1 / 4 / 2; }
+.div8 { grid-area: 3 / 2 / 4 / 3; }
+.div9 { grid-area: 3 / 3 / 4 / 4; } 
+
+.child { 
+    margin: 0 5px;
+    border: 1px solid black; 
+    text-align: center;
+} 
 
 @media (max-width: 500px) {
 
