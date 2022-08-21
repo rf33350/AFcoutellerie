@@ -1,9 +1,0 @@
-{
-    "name": "assoc-francaise-coutellerie",
-    "description": "a really cool app developped by remi Faure for my first html css evaluation",
-    "version": "1.0.0",
-    "engines": {
-      "node": "18.x"
-    }
-  }
-  
