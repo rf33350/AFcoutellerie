@@ -103,6 +103,15 @@ h5 {
     text-align: center;
 }
 
+.footer-container {
+    background-color: #AACD6E;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .footer-link {
     text-decoration: none;
     color: #65665d;
