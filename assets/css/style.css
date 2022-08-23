@@ -55,6 +55,17 @@
     margin: 50px 10vw;
 }
 
+.btn_arrow_up{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+
 h3 {
     text-align: center; 
     font-size: 35px;
@@ -106,8 +117,8 @@ h5 {
 .footer-container {
     background-color: #AACD6E;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -186,6 +197,12 @@ h5 {
         font-size: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .btn_arrow_up{
+        right: 30px;
+        bottom: 30px;
+        
     }
 
     .grid-child-p { 
