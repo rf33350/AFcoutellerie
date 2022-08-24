@@ -66,6 +66,11 @@
     cursor: pointer;
 }
 
+.btn_arrow_up_img{
+    max-width:100%;
+	max-height:100%;
+}
+
 h3 {
     text-align: center; 
     font-size: 35px;
@@ -200,9 +205,10 @@ h5 {
     }
 
     .btn_arrow_up{
-        right: 30px;
-        bottom: 30px;
-        
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 20px;
     }
 
     .grid-child-p { 
