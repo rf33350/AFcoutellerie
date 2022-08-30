@@ -112,18 +112,21 @@ h3 {
     border: solid #C5C6B6 2px;
 }
 
-
 .card-img-top {
     margin-top: 10px;
     border-radius: 10px;
 }
 
-.row {
-    margin-bottom: 30px;
-}
-
 .card-body {
     text-align: center;
+}
+
+.card-title{
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 30px;
 }
 
 h5 {
@@ -305,6 +308,11 @@ h5 {
 
     .grid-child { 
         margin-bottom: 70px;
+    }
+
+    .featurette-image {
+        width: 600px;
+        height: auto;
     }
 
     .footer-container {
