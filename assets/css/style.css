@@ -101,7 +101,7 @@ h3 {
 
 .featurette-image {
     background-size: cover;
-    width: 500px;
+    width: auto;
     height: auto;
 }
 
