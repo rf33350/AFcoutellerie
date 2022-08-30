@@ -106,6 +106,8 @@ h3 {
 .card {
     background-image: linear-gradient(rgba(241, 237, 237, 0.5), rgba(150, 150, 150, 0.5));
     margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #C5C6B6 2px;
 }
 
 
@@ -115,7 +117,7 @@ h3 {
 }
 
 .row {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .card-body {
