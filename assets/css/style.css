@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     padding: 10px 10px 10px 10px;
-    margin: 1px 1px 1px 1px;
+    margin: 5px 5px;
     border-radius: 5px;
     background-color: #AACD6E;
 }
@@ -17,7 +17,7 @@
 }
 
 .navbar-title {
-    font-size: 26px;
+    font-size: 20px;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -32,9 +32,10 @@
 }
 
 .logo_AFC {
+    align-self: flex;
     height: 60px;
     width: 60px;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .navbar-nav li{
@@ -42,15 +43,17 @@
 }
 
 .main-title {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main-par {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .carousel {
@@ -59,10 +62,10 @@
 
 .btn_arrow_up{
     display: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: fixed;
-    right: 20px;
+    right: 15px;
     bottom: 20px;
     z-index: 99;
     cursor: pointer;
@@ -124,8 +127,7 @@ h5 {
 .footer-container {
     background-color: #AACD6E;
     border-radius: 5px;
-    margin-top: 60px;
-    margin-bottom: 5px;
+    margin: 5px 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -136,51 +138,10 @@ h5 {
 }
 
 .agenda-title {
-    font-size: 35px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.logo_AFC {
-    align-self: flex-start;
-    height: 60px;
-    width: 60px;
-    margin-right: 0px;
-}
-
-.navbar-title {
-    font-size: 20px;
-}
-
-.main-title {
-    text-align: center;
-    font-size: 30px;
-}
-
-.main-par {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-.agenda-title {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-.btn_arrow_up{
-    width: 40px;
-    height: 40px;
-    right: 15px;
-    bottom: 20px;
-}
-
-.grid-child-p { 
-    font-size: 20px;
-    font-weight: lighter;
-    margin-top: 5px;
-} 
 
 .grid-parent {
     grid-template-columns: 1fr;
@@ -241,9 +202,15 @@ h5 {
 }
 
 .grid-child { 
-    margin: 0 5px;
+    margin-bottom: 50px;
     text-align: center;
 }
+
+.grid-child-p { 
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 5px;
+} 
 
 .grid-child-img { 
     max-width: 70%;
@@ -253,7 +220,7 @@ h5 {
 @media (min-width: 500px) {
 
     .navbar-title {
-        margin-left: 10px;
+        font-size: 25px;
         margin-bottom: 0;
     }
 
@@ -289,7 +256,53 @@ h5 {
 
 @media (min-width: 1024px) {
 
+    .navbar-title {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .logo_AFC {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .carousel {
         margin: 50px 20vw;
     }
+
+    #navbarNav {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 0px;
+        padding-right: 30px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .main-title {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .main-par {
+        font-size: 23px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .grid-child { 
+        margin-bottom: 70px;
+    }
+
+    .footer-container {
+        padding-top: 30px;
+    }
+
+    .footer-link, .footer-text {
+        font-size: 20px;
+    }
+
 }
