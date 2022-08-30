@@ -4,6 +4,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-image: linear-gradient(rgba(241, 237, 237, 0.5), rgba(150, 150, 150, 0.5));
+}          
+
 .navbar {
     display: flex;
     padding: 10px 10px 10px 10px;
@@ -100,8 +104,10 @@ h3 {
 }
 
 .card {
+    background-image: linear-gradient(rgba(241, 237, 237, 0.5), rgba(150, 150, 150, 0.5));
     margin-top: 20px;
 }
+
 
 .card-img-top {
     margin-top: 10px;
